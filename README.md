@@ -207,19 +207,37 @@ Industrial chilled water utility bill computed via a capacity formula (connected
 
 ---
 
-## CLI Commands
+## Verification
 
+### Run automated tests
 ```bash
-# Process all documents
+python -m pytest -q
+```
+
+### Run the complete benchmark
+```bash
 python main.py process --input candidate_kit/candidate_kit/documents --output output
-
-# Evaluate outputs against sealed ERP
 python main.py evaluate --output output
+```
 
-# Inspect a single document (6-stage diagnostic trace)
+### Expected benchmark on the supplied candidate kit
+
+- Documents processed: 42
+- Payable candidates: 37
+- Accepted payables: 35
+- Genuine non-payables: 5
+- Reconstruction failures: 2
+- Accepted-payable ERP accuracy: 35/35 (100.0%)
+- Overall payable reconciliation: 35/37 (94.6%)
+- Processing errors: 0
+
+### Inspect one document
+```bash
 python main.py inspect candidate_kit/candidate_kit/documents/INV-01.pdf
+```
 
-# Targeted recheck of a single document
+### Re-run targeted recovery
+```bash
 python main.py recheck candidate_kit/candidate_kit/documents/INV-01.pdf --output output
 ```
 
@@ -252,17 +270,6 @@ python main.py recheck candidate_kit/candidate_kit/documents/INV-01.pdf --output
 ├── DESIGN.md               # Design rationale & engineering questions
 └── requirements.txt
 ```
-
----
-
-## Testing
-
-```bash
-python -m pytest -q
-# 125 passed in ~3s
-```
-
-Coverage areas: rate limiting, model fallback, classification, normalization, master data fuzzy matching, tax placement, discount reconciliation, bundle hierarchy pruning, operational measurement correction, evaluator semantics, and end-to-end ERP invariants.
 
 ---
 

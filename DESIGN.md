@@ -46,7 +46,7 @@ When our engine encounters a completely novel document, it operates through a de
 ┌────────────────────────────────────────────────────────┐
 │  Tier 1: Evidence Ingestion & Geometric Anchoring     │
 │  - PyMuPDF native text & spatial bounding boxes        │
-│  - High-res rasterization (200 DPI) for visual layers  │
+│  - High-res rasterization (300 DPI) for visual layers  │
 │  - Windows WinRT / Tesseract OCR fallback              │
 └────────────────────────────────────────────────────────┘
       │ EvidencePacket (PageEvidence, BBoxes, Hashes)
@@ -151,13 +151,23 @@ By refusing to invent a balancing discount to match the remittance figure, our e
 ### Non-Payable Documents Correctly Declined
 
 Similarly, five documents in the collection were concluded to be **non-payables**:
-1. **`DU-02.pdf`**: A 20-page Customs Consolidated Declaration containing customs classification codes, weights, and transit declarations—supporting shipping paperwork, not a supplier payable.
-2. **`DU-05s.pdf`**: A 15-page packet of packing lists, delivery notes, and courier waybills containing no financial consideration or tax breakdown.
-3. **`DU-08.pdf`**: A German *Mahnung* (payment reminder) for an existing overdue invoice. Booking a reminder would duplicate the payable liability in the ERP.
-4. **`DU-09.pdf`**: An internal corporate sponsorship approval form with internal routing signatures, not an external vendor invoice.
-5. **`INV-23.pdf`**: Explicitly titled *ESTIMATE* (`# EST-259684`) requesting an advance deposit of GHC 13,000 for customs clearing—an estimate of future costs, not an invoice for services rendered.
+1. **`DU-05s.pdf`**: A 15-page packet of packing lists, delivery notes, and courier waybills containing no financial consideration or tax breakdown.
+2. **`DU-08.pdf`**: A German *Mahnung* (payment reminder) for an existing overdue invoice. Booking a reminder would duplicate the payable liability in the ERP.
+3. **`DU-09.pdf`**: An internal corporate sponsorship approval form with internal routing signatures, not an external vendor invoice.
+4. **`INV-23.pdf`**: Explicitly titled *ESTIMATE* (`# EST-259684`) requesting an advance deposit of GHC 13,000 for customs clearing—an estimate of future costs, not an invoice for services rendered.
+5. **`INV-26.pdf`**: A sales order / quotation confirmation ("SALES"), not a payable invoice addressed to the company.
 
 Refusing to book non-payables and recording them in `declined[]` with clear, structured reasons protects the integrity of the downstream ERP ledger.
+
+### Payable Reconstruction Failures — Principled Declines
+
+Two payable candidates are intentionally declined rather than forcing an artificial ERP match:
+
+1. **`HLD-05.pdf`** (`COMPOUND_TAX`): A Portuguese fuel invoice (856/AT) where excise duty (IEC, €312.39) is legally compounded into the VAT taxable base *before* 23% IVA is applied. The sealed ERP adds excise duties *after* computing taxes, making faithful representation impossible without fabricating synthetic line prices. Delta: +312.39 EUR.
+
+2. **`INV-37.pdf`** (`NON_LINEAR_BILLING_FORMULA`): An industrial chilled water capacity bill (5568) computed via a non-linear formula (connected tons × annual rate ÷ 12 × multiplier). The ERP schema only supports linear quantity × unit_price. Representing this formula would require manufacturing a synthetic unit price that does not exist on the document. Delta: +20.02 USD.
+
+Both are declined with explicit `PAYABLE_RECONCILIATION_FAILURE` markers and root-cause diagnostic categories, surfacing explainable exceptions for human review rather than booking fabricated numbers into the general ledger.
 
 ---
 
@@ -165,9 +175,11 @@ Refusing to book non-payables and recording them in `declined[]` with clear, str
 
 Across the complete 42-document candidate kit corpus:
 - **Files Processed**: 42
-- **Payables Emitted**: 37
-- **Non-Payables Declined**: 5 (`DU-02`, `DU-05s`, `DU-08`, `DU-09`, `INV-23`)
-- **ERP Reconciliation Rate**: **37 / 37 (100.0%)**
-- **Maximum Absolute Delta**: **0.00**
-- **ERP Mismatches**: 0
+- **Payable Candidates**: 37
+- **Genuine Non-Payables**: 5 (`DU-05s`, `DU-08`, `DU-09`, `INV-23`, `INV-26`)
+- **Accepted Payables**: 35
+- **Payable Reconstruction Failures**: 2 (`HLD-05`: `COMPOUND_TAX`, `INV-37`: `NON_LINEAR_BILLING_FORMULA`)
+- **Accepted-Payable ERP Match Rate**: **35 / 35 (100.0%)**
+- **Maximum Absolute Delta Among Accepted**: **0.00**
+- **Overall Payable Reconciliation Rate**: **35 / 37 (94.6%)**
 - **Execution**: 100% offline, reproducible, single-command execution.

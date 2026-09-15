@@ -1,0 +1,35 @@
+{
+  "_comment": "Purchase-order master. Resolve po_id against this list. A PO printed on a document that is not in this master is a non-ERP reference; leave po_id empty.",
+  "purchase_orders": [
+    {
+      "po_id": "PO-EE-2026-0044",
+      "po_number": "PO-EE-2026-0044",
+      "supplier_id": "2807582",
+      "currency": "EUR",
+      "po_lines": [
+        {
+          "line_id": "1",
+          "description": "AV equipment rental",
+          "quantity": 1,
+          "uom": "LOT",
+          "unit_price": "608.23"
+        }
+      ]
+    },
+    {
+      "po_id": "PO-GH-2026-0177",
+      "po_number": "PO-GH-2026-0177",
+      "supplier_id": "2731927",
+      "currency": "GHS",
+      "po_lines": [
+        {
+          "line_id": "1",
+          "description": "IP connectivity, monthly recurring",
+          "quantity": 1,
+          "uom": "EA",
+          "unit_price": "17437.00"
+        }
+      ]
+    }
+  ]
+}

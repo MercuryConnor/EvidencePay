@@ -1,0 +1,131 @@
+{
+  "_comment": "Supplier master. Resolve supplier_id by matching the document's supplier against this list. Not every document's supplier is here — an unmatched supplier is a legitimate empty supplier_id.",
+  "suppliers": [
+    {
+      "supplier_id": "2845695",
+      "name": "Phocus Direct Communication GmbH",
+      "vat_id": "DE209177122",
+      "country": "DE",
+      "email": "billing@phocus.de",
+      "address": "Lina-Ammon-Strasse 19b, 90471 Nurnberg, DE",
+      "bank_iban": "DE34763500000000018786"
+    },
+    {
+      "supplier_id": "2807582",
+      "name": "Ehast Koiduni OU",
+      "vat_id": "EE101234567",
+      "country": "EE",
+      "email": "arved@ehastkoiduni.ee",
+      "address": "Parnu mnt 158, 11317 Tallinn, EE",
+      "bank_iban": "EE472200221017274226"
+    },
+    {
+      "supplier_id": "2746014",
+      "name": "Registrite ja Infosusteemide Keskus",
+      "vat_id": "EE100037281",
+      "country": "EE",
+      "email": "info@rik.ee",
+      "address": "Lubja 4, 10115 Tallinn, EE",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2758343",
+      "name": "EMK Kuller OU",
+      "vat_id": "EE101928374",
+      "country": "EE",
+      "email": "info@emk.ee",
+      "address": "Kadaka tee 3, 10621 Tallinn, EE",
+      "bank_iban": "EE201010220034796011"
+    },
+    {
+      "supplier_id": "2841766",
+      "name": "Atikah binti Rahman",
+      "vat_id": "",
+      "country": "MY",
+      "email": "atikah.r@gmail.com",
+      "address": "Jalan Ampang 55, 50450 Kuala Lumpur, MY",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2841753",
+      "name": "VMC Distribution Sdn Bhd",
+      "vat_id": "MY202001012345",
+      "country": "MY",
+      "email": "accounts@vmc.my",
+      "address": "Jalan SS15/4, 47500 Subang Jaya, MY",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2746388",
+      "name": "Boldwin Audit Consult",
+      "vat_id": "GHA-VAT-887766",
+      "country": "GH",
+      "email": "info@boldwin.gh",
+      "address": "Ring Road Central, Accra, GH",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2731927",
+      "name": "Scancom PLC (MTN Ghana)",
+      "vat_id": "GHA-VAT-112233",
+      "country": "GH",
+      "email": "business@mtn.com.gh",
+      "address": "Independence Avenue, Accra, GH",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2730138",
+      "name": "Verify Now (Pty) Ltd",
+      "vat_id": "ZA4123456789",
+      "country": "ZA",
+      "email": "billing@verifynow.co.za",
+      "address": "Rivonia Road 200, Sandton, ZA",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2815044",
+      "name": "SparkleClean Services",
+      "vat_id": "ZA4987654321",
+      "country": "ZA",
+      "email": "accounts@sparkleclean.co.za",
+      "address": "West Street 10, Durban, ZA",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2749690",
+      "name": "Freightways Logistics Ltd",
+      "vat_id": "KE-PIN-P051234567X",
+      "country": "KE",
+      "email": "ar@freightways.co.ke",
+      "address": "Mombasa Road, Nairobi, KE",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2842615",
+      "name": "Sena Legal & HR Consult",
+      "vat_id": "GHA-VAT-556677",
+      "country": "GH",
+      "email": "accounts@senalegal.gh",
+      "address": "Osu Oxford Street, Accra, GH",
+      "bank_iban": ""
+    },
+    {
+      "supplier_id": "2900112",
+      "name": "Zoomcopia Impressao Lda",
+      "vat_id": "PT501234567",
+      "country": "PT",
+      "email": "geral@zoomcopia.pt",
+      "address": "Rua do Ouro 120, 1100-063 Lisboa, PT",
+      "bank_iban": "PT50000201231234567890154"
+    },
+    {
+      "supplier_id": "2900456",
+      "name": "Distribeer Bebidas Lda",
+      "vat_id": "PT502345678",
+      "country": "PT",
+      "email": "faturacao@distribeer.pt",
+      "address": "Zona Industrial 4, 2660-001 Loures, PT",
+      "bank_iban": "PT50000701234567890123456"
+    }
+  ]
+}

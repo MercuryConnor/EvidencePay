@@ -1,0 +1,243 @@
+{
+  "_comment": "Tax reference. Resolve a tax to its ERP tax_type_code against this list (rate is a percentage). Not every tax is here — no match is a legitimate empty code.",
+  "taxes": [
+    {
+      "code": "DE_190_VAT",
+      "country": "DE",
+      "tax_type": "VAT",
+      "rate": 19,
+      "name": "German VAT 19%"
+    },
+    {
+      "code": "DE_070_VAT",
+      "country": "DE",
+      "tax_type": "VAT",
+      "rate": 7,
+      "name": "German VAT 7% (reduced)"
+    },
+    {
+      "code": "DE_000_RC",
+      "country": "DE",
+      "tax_type": "VAT",
+      "rate": 0,
+      "name": "German Reverse Charge 0%"
+    },
+    {
+      "code": "EST_240_VAT",
+      "country": "EE",
+      "tax_type": "VAT",
+      "rate": 24,
+      "name": "Estonian VAT 24%"
+    },
+    {
+      "code": "EST_220_VAT",
+      "country": "EE",
+      "tax_type": "VAT",
+      "rate": 22,
+      "name": "Estonian VAT 22%"
+    },
+    {
+      "code": "EST_000_VAT",
+      "country": "EE",
+      "tax_type": "VAT",
+      "rate": 0,
+      "name": "Estonian VAT 0% / exempt"
+    },
+    {
+      "code": "GB_200_VAT",
+      "country": "GB",
+      "tax_type": "VAT",
+      "rate": 20,
+      "name": "UK VAT 20%"
+    },
+    {
+      "code": "GB_000_VAT",
+      "country": "GB",
+      "tax_type": "VAT",
+      "rate": 0,
+      "name": "UK VAT 0%"
+    },
+    {
+      "code": "PT_230_IVA",
+      "country": "PT",
+      "tax_type": "IVA",
+      "rate": 23,
+      "name": "Portugal IVA 23%"
+    },
+    {
+      "code": "PT_130_IVA",
+      "country": "PT",
+      "tax_type": "IVA",
+      "rate": 13,
+      "name": "Portugal IVA 13%"
+    },
+    {
+      "code": "PT_060_IVA",
+      "country": "PT",
+      "tax_type": "IVA",
+      "rate": 6,
+      "name": "Portugal IVA 6%"
+    },
+    {
+      "code": "ZAF_150_VAT",
+      "country": "ZA",
+      "tax_type": "VAT",
+      "rate": 15,
+      "name": "South Africa VAT 15%"
+    },
+    {
+      "code": "KEN_160_VAT",
+      "country": "KE",
+      "tax_type": "VAT",
+      "rate": 16,
+      "name": "Kenya VAT 16%"
+    },
+    {
+      "code": "MY_080_SST",
+      "country": "MY",
+      "tax_type": "SST",
+      "rate": 8,
+      "name": "Malaysia Service Tax 8%"
+    },
+    {
+      "code": "MY_000_SST",
+      "country": "MY",
+      "tax_type": "SST",
+      "rate": 0,
+      "name": "Malaysia SST 0% / exempt"
+    },
+    {
+      "code": "TAX024",
+      "country": "GH",
+      "tax_type": "VAT",
+      "rate": 15,
+      "name": "Ghana VAT 15%"
+    },
+    {
+      "code": "TAX028",
+      "country": "GH",
+      "tax_type": "NHIL",
+      "rate": 2.5,
+      "name": "Ghana NHIL 2.5%"
+    },
+    {
+      "code": "TAX029",
+      "country": "GH",
+      "tax_type": "GETFL",
+      "rate": 2.5,
+      "name": "Ghana GETFund 2.5%"
+    },
+    {
+      "code": "TAX030",
+      "country": "GH",
+      "tax_type": "COVID",
+      "rate": 1,
+      "name": "Ghana COVID-19 Levy 1%"
+    },
+    {
+      "code": "CST5",
+      "country": "GH",
+      "tax_type": "CST",
+      "rate": 5,
+      "name": "Ghana Communication Service Tax 5%"
+    },
+    {
+      "code": "CH_081_VAT",
+      "country": "CH",
+      "tax_type": "VAT",
+      "rate": 8.1,
+      "name": "Switzerland VAT 8.1%"
+    },
+    {
+      "code": "CA_130_HST",
+      "country": "CA",
+      "tax_type": "HST",
+      "rate": 13,
+      "name": "Canada HST 13%"
+    },
+    {
+      "code": "DK_250_VAT",
+      "country": "DK",
+      "tax_type": "VAT",
+      "rate": 25,
+      "name": "Denmark VAT 25%"
+    },
+    {
+      "code": "PL_230_VAT",
+      "country": "PL",
+      "tax_type": "VAT",
+      "rate": 23,
+      "name": "Poland VAT 23%"
+    },
+    {
+      "code": "PL_NP",
+      "country": "PL",
+      "tax_type": "NP",
+      "rate": 0,
+      "name": "Poland not-subject-to-VAT"
+    },
+    {
+      "code": "TH_070_VAT",
+      "country": "TH",
+      "tax_type": "VAT",
+      "rate": 7,
+      "name": "Thailand VAT 7%"
+    },
+    {
+      "code": "TH_WHT_003",
+      "country": "TH",
+      "tax_type": "WHT",
+      "rate": 3,
+      "name": "Thailand Withholding 3%"
+    },
+    {
+      "code": "SG_090_GST",
+      "country": "SG",
+      "tax_type": "GST",
+      "rate": 9,
+      "name": "Singapore GST 9%"
+    },
+    {
+      "code": "SG_000_GST",
+      "country": "SG",
+      "tax_type": "GST",
+      "rate": 0,
+      "name": "Singapore GST 0% / zero-rated"
+    },
+    {
+      "code": "SE_250_MOMS",
+      "country": "SE",
+      "tax_type": "MOMS",
+      "rate": 25,
+      "name": "Sweden moms 25%"
+    },
+    {
+      "code": "RO_190_VAT",
+      "country": "RO",
+      "tax_type": "VAT",
+      "rate": 19,
+      "name": "Romania VAT 19%"
+    },
+    {
+      "code": "VN_080_VAT",
+      "country": "VN",
+      "tax_type": "VAT",
+      "rate": 8,
+      "name": "Vietnam VAT 8%"
+    },
+    {
+      "code": "VN_100_VAT",
+      "country": "VN",
+      "tax_type": "VAT",
+      "rate": 10,
+      "name": "Vietnam VAT 10%"
+    },
+    {
+      "code": "US_U1_USE",
+      "country": "US",
+      "tax_type": "USE",
+      "rate": 0,
+      "name": "US Use Tax (self-assessed)"
+    }
+  ]
+}

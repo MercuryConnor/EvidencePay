@@ -1,0 +1,77 @@
+{
+  "_comment": "Organisational structure (the buyer / tenant side): company_code / business_unit_code / location_code. The tenant is provided with each document; resolve its codes against this list.",
+  "companies": [
+    {
+      "company_code": "BOLTGROUP",
+      "company_name": "Bolt Group",
+      "business_units": [
+        {
+          "business_unit_code": "EE001",
+          "business_unit_name": "Bolt Technology OU",
+          "locations": [
+            {
+              "location_code": "LOC_EE_001",
+              "location_name": "Tallinn - HQ",
+              "invoice_to_address": "Vana-Louna 15, 10134 Tallinn, Estonia"
+            }
+          ]
+        },
+        {
+          "business_unit_code": "EE004",
+          "business_unit_name": "Bolt Holdings OU",
+          "locations": [
+            {
+              "location_code": "LOC_EE_001",
+              "location_name": "Tallinn - HQ",
+              "invoice_to_address": "Vana-Louna 15, 10134 Tallinn, Estonia"
+            }
+          ]
+        },
+        {
+          "business_unit_code": "GH001",
+          "business_unit_name": "Bolt Ghana Ltd",
+          "locations": [
+            {
+              "location_code": "LOC_GH_001",
+              "location_name": "Accra Office",
+              "invoice_to_address": "Airport City, Accra, Ghana"
+            }
+          ]
+        },
+        {
+          "business_unit_code": "MY001",
+          "business_unit_name": "Bolt Malaysia Sdn Bhd",
+          "locations": [
+            {
+              "location_code": "LOC_MY_001",
+              "location_name": "Kuala Lumpur Office",
+              "invoice_to_address": "Jalan Tun Razak, 50400 Kuala Lumpur, Malaysia"
+            }
+          ]
+        },
+        {
+          "business_unit_code": "ZA001",
+          "business_unit_name": "Bolt South Africa (Pty) Ltd",
+          "locations": [
+            {
+              "location_code": "LOC_ZA_001",
+              "location_name": "Johannesburg Office",
+              "invoice_to_address": "Katherine Street, Sandton, South Africa"
+            }
+          ]
+        },
+        {
+          "business_unit_code": "GB001",
+          "business_unit_name": "Bolt Operations UK Ltd",
+          "locations": [
+            {
+              "location_code": "LOC_GB_001",
+              "location_name": "London Office",
+              "invoice_to_address": "5 New Street Square, London, UK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

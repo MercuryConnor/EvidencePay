@@ -1,0 +1,64 @@
+{
+  "file": "INV-09.pdf",
+  "payables": [
+    {
+      "invoice_number": "11768395",
+      "invoice_date": "2025-06-06",
+      "due_date": "2025-06-27",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_21",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "37767.32",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Import duties",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.0",
+          "unit_price": "31889.09",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Customs VAT",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.0",
+          "unit_price": "5878.23",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

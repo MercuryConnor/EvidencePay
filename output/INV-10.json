@@ -1,0 +1,72 @@
+{
+  "file": "INV-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "18533",
+      "invoice_date": "2026-03-25",
+      "due_date": "2026-04-24",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "Larkspur Print OÜ",
+        "supplier_id": "",
+        "address": "Jalan Ampang 60 aosa, Tallinn, Harju maakond, 10412",
+        "vat_id": "EE755780626"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "594.30",
+      "subtotal": "479.27",
+      "total_tax_amount": "115.03",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Käibemaks",
+          "tax_rate": "24",
+          "tax_amount": "115.03",
+          "tax_type_code": "EST_240_VAT"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "17/03 Toitlustus",
+          "item_type": "SERVICE",
+          "uom": "kord",
+          "quantity": "1",
+          "unit_price": "479.28",
+          "total": "479.28",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Ümardus",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "-0.01",
+          "total": "-0.01",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

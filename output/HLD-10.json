@@ -1,0 +1,105 @@
+{
+  "file": "HLD-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-05-07",
+      "due_date": "2026-06-04",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Speedwell Estonia AS",
+        "supplier_id": "",
+        "address": "High Street 36, 75310 Harju maakond, Eesti",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "254.52",
+      "subtotal": "223.98",
+      "total_tax_amount": "30.54",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "66.36",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "",
+          "tax_rate": "24.00",
+          "tax_amount": "30.54",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "VAT",
+          "tax_name": "",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "WAW, Clara Haas Lindenstrasse 20 CWH PL-01-940, Warsaw -> OSL, Lena Meyer Market Road 67 NO-0196, nondoc",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "65.26",
+          "total": "65.26",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "WAW, Clara Haas Lindenstrasse 20 CWH PL-01-940, Warsaw -> AMS, Het 31A RA,",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "35.41",
+          "total": "35.41",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "ZPE, Northwind Operations OU Maria Moreau Vidal Silva Lindenstrasse 31 DE-48153,",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "25.18",
+          "total": "25.18",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "VNO, Northwind OU Alex Moreau Bahnhofstrasse 69 LT-47214,",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "31.77",
+          "total": "31.77",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

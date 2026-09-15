@@ -1,0 +1,51 @@
+{
+  "file": "INV-36.pdf",
+  "payables": [
+    {
+      "invoice_number": "44273107",
+      "invoice_date": "2018-06-18",
+      "due_date": "2018-07-18",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "Oracle America, Inc.",
+        "supplier_id": "",
+        "address": "500 Oracle Parkway\nRedwood Shores, CA 94065\nUnited States",
+        "vat_id": "94-2805249"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "1000021496",
+      "po_id": "",
+      "gross_total": "91580.50",
+      "subtotal": "91580.50",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Managed Cloud Services - Computer and Administration Services -\nManaged Cloud Services - Additional Services 18-JUL-2018 :\n17-OCT-2018",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "91580.50",
+          "total": "91580.50",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

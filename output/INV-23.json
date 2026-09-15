@@ -1,0 +1,10 @@
+{
+  "file": "INV-23.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "estimate",
+      "reason": "The document is an estimate, not a payable invoice."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "INV-37.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "invoice",
+      "reason": "PAYABLE_RECONCILIATION_FAILURE: inv=5568, curr=$, stated=2487.73, erp=2507.75, delta=+20.02, category=NON_LINEAR_BILLING_FORMULA: Billing amount determined by non-linear formula (e.g. connected tons * annual fee / 12 months * factor); linear ERP schema cannot represent without fabricating artificial unit price (delta +20.02)."
+    }
+  ]
+}

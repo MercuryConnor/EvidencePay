@@ -1,0 +1,80 @@
+{
+  "file": "DU-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "5900366703",
+      "invoice_date": "2026-04-15",
+      "due_date": "",
+      "invoice_type": "CREDIT_MEMO",
+      "currency": "GBP",
+      "supplier": {
+        "name": "Blackpine Consulting Limited",
+        "supplier_id": "",
+        "address": "Parnu mnt 50\nBahnhofstrasse 65\nChippenham\nSN14 0GF",
+        "vat_id": "GB447324473"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GB001",
+        "location_code": "LOC_GB_001"
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "5076.17",
+      "subtotal": "4230.14",
+      "total_tax_amount": "846.03",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Logitech Tap Scheduler Touch Controller",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "6",
+          "unit_price": "457.24",
+          "total": "2743.44",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "",
+              "tax_rate": "20",
+              "tax_amount": "",
+              "tax_type_code": "GB_200_VAT"
+            }
+          ]
+        },
+        {
+          "description": "Logitech Tap Touch Controller Cat5e Kit",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "743.35",
+          "total": "1486.70",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "",
+              "tax_rate": "20",
+              "tax_amount": "",
+              "tax_type_code": "GB_200_VAT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

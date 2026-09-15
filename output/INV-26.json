@@ -1,0 +1,10 @@
+{
+  "file": "INV-26.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "sales_order",
+      "reason": "The document is a sales order / quotation confirmation (\"SALES\"), not a payable invoice addressed to the company."
+    }
+  ]
+}

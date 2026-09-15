@@ -1,0 +1,111 @@
+{
+  "file": "INV-21.pdf",
+  "payables": [
+    {
+      "invoice_number": "9884313366",
+      "invoice_date": "2026-04-06",
+      "due_date": "2026-05-06",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Oakhaven Partners LDA",
+        "supplier_id": "",
+        "address": "High Street 8\n2799-554 LINDA-A-VELHA",
+        "vat_id": "PT 059 909 082"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "FTOU368444",
+      "po_id": "",
+      "gross_total": "535.79",
+      "subtotal": "868.51",
+      "total_tax_amount": "100.19",
+      "discount_amount": "432.91",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "IVA",
+          "tax_name": "IVA",
+          "tax_rate": "23",
+          "tax_amount": "100.19",
+          "tax_type_code": "PT_230_IVA"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "SICAL SUPER BAR Cafe Grao 6x1kg N1PT",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "24.000",
+          "unit_price": "34.69",
+          "total": "407.95",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Vireo Chocolate Quente 12(25x20g) N1",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "1.000",
+          "unit_price": "10.01",
+          "total": "10.01",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "NESCAFE Acucar Std 1x2.8kg PT",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "1.000",
+          "unit_price": "8.30",
+          "total": "8.30",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "AHMAD Inf MentaHrtLim 6(20x1,5g)N1PT",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "3.000",
+          "unit_price": "2.94",
+          "total": "8.82",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "AHMAD Inf Camomila 6(20x1.5g)N1PT",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "3.000",
+          "unit_price": "2.94",
+          "total": "8.82",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

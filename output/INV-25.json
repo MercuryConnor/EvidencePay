@@ -1,0 +1,101 @@
+{
+  "file": "INV-25.pdf",
+  "payables": [
+    {
+      "invoice_number": "FAC A98/712",
+      "invoice_date": "2026-04-13",
+      "due_date": "2026-05-13",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Fairmont Services LDA",
+        "supplier_id": "",
+        "address": "High Street 34\n1000-137 LISBOA",
+        "vat_id": "PT029461956"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "176.00",
+      "subtotal": "143.09",
+      "total_tax_amount": "32.91",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "FOT./IMPRESSÃO A4 CORES 1 ESTUD.",
+          "item_type": "SERVICE",
+          "uom": "UNI",
+          "quantity": "400.00",
+          "unit_price": "0.325225",
+          "total": "160.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ]
+        },
+        {
+          "description": "FOLHA 80g",
+          "item_type": "GOODS",
+          "uom": "UNI",
+          "quantity": "400.00",
+          "unit_price": "0.0000",
+          "total": "0.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ]
+        },
+        {
+          "description": "FOLHA 120g",
+          "item_type": "GOODS",
+          "uom": "UNI",
+          "quantity": "200.00",
+          "unit_price": "0.0650",
+          "total": "16.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

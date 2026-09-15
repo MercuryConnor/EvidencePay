@@ -1,0 +1,137 @@
+{
+  "file": "INV-27.pdf",
+  "payables": [
+    {
+      "invoice_number": "32917ALS55",
+      "invoice_date": "2025-06-03",
+      "due_date": "2025-07-03",
+      "invoice_type": "INVOICE",
+      "currency": "KES",
+      "supplier": {
+        "name": "Oakhaven Supply Ltd",
+        "supplier_id": "",
+        "address": "Lindenstrasse 8\nP.O Box 14108, Nairobi, Kenya\n00400 KEN",
+        "vat_id": "P088353697W"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "70654.30",
+      "subtotal": "60908.88",
+      "total_tax_amount": "9745.42",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "VAT",
+          "tax_rate": "16",
+          "tax_amount": "9745.42",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Handling Out (per CBM)\nHandling Out of POS DEVICES(SUNMI V2PRO) on 19th May\n0.00686CBM * 40 units",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "0.2744",
+          "unit_price": "500.00",
+          "total": "137.20",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Transport\nTransport of POS devices(SUNMI V2PRO) on 4th April",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "3000.00",
+          "total": "3000.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Transport\nTransport of POS DEVICES(SUNMI V2PRO) on 19th May",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1500.00",
+          "total": "1500.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Storage charges\nStorage charges for POS devices(SUNMI V2PRO) from 1st to 19th May\n0.00686 CBM* 311units*19days",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "40.53574",
+          "unit_price": "30.00",
+          "total": "1216.07",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Storage charges\nStorage charges for POS devices(SUNMI V2PRO) from 20th to 31st May\n0.00686 CBM* 271units*12days",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "22.30872",
+          "unit_price": "30.00",
+          "total": "669.26",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Storage charges\nStorage charges for Food\ndeliverybag(insulated bag) from 1st to 31st May\n0.0297 CBM* 1788 units* 31 days",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1646.2116",
+          "unit_price": "30.00",
+          "total": "49386.35",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Stock Management fee\nMonthly stock Management fee",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "5000.00",
+          "total": "5000.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

@@ -1,0 +1,80 @@
+{
+  "file": "INV-16.pdf",
+  "payables": [
+    {
+      "invoice_number": "TLLIR72836045",
+      "invoice_date": "2025-06-09",
+      "due_date": "2025-07-07",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Speedwell Express Estonia AS",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GB001",
+        "location_code": "LOC_GB_001"
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "26.47",
+      "subtotal": "21.7",
+      "total_tax_amount": "4.77",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "ECONOMY SELECT",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.0",
+          "unit_price": "18.87",
+          "total": "18.87",
+          "discount": "0.0",
+          "discount_percentage": "",
+          "tax_rate": "22.0",
+          "tax_amount": "4.15",
+          "taxes": [
+            {
+              "tax_type": "TAX",
+              "tax_name": "",
+              "tax_rate": "22.0",
+              "tax_amount": "4.15",
+              "tax_type_code": ""
+            }
+          ]
+        },
+        {
+          "description": "FUEL SURCHARGE",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.0",
+          "unit_price": "2.83",
+          "total": "2.83",
+          "discount": "0.0",
+          "discount_percentage": "",
+          "tax_rate": "22.0",
+          "tax_amount": "0.62",
+          "taxes": [
+            {
+              "tax_type": "TAX",
+              "tax_name": "",
+              "tax_rate": "22.0",
+              "tax_amount": "0.62",
+              "tax_type_code": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

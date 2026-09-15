@@ -1,0 +1,72 @@
+{
+  "file": "INV-01.pdf",
+  "payables": [
+    {
+      "invoice_number": "852566",
+      "invoice_date": "2026-02-02",
+      "due_date": "2026-02-12",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Northwind Operations OÜ",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_10",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "438.00",
+      "subtotal": "438.00",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "MwSt",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Projektmanagement Nachberechnung aus November",
+          "item_type": "SERVICE",
+          "uom": "Std.",
+          "quantity": "4",
+          "unit_price": "73.00",
+          "total": "292.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Projektmanagement Nachberechnung aus Dezember",
+          "item_type": "SERVICE",
+          "uom": "Std.",
+          "quantity": "2",
+          "unit_price": "73.00",
+          "total": "146.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

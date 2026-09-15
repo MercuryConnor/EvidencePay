@@ -1,0 +1,51 @@
+{
+  "file": "INV-33.pdf",
+  "payables": [
+    {
+      "invoice_number": "ADIPL/INV/070/17",
+      "invoice_date": "2017-06-08",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "$",
+      "supplier": {
+        "name": "AD NOTIONS INT'L PTE. LTD.",
+        "supplier_id": "",
+        "address": "20 Sin Ming Lane Midview City #08-61 Singapore 573968",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "250.00",
+      "subtotal": "250.00",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "PROJECT : Pillar Signage Panel For Shuttle Service At T2 Coach Bay (Lot No. 8) Process : Supply of 2mm thick clear poly-carbonate sheet with reverse black color base & install onto existing pillar with A3 size digital print Matt lamination onto panel surface. Please note; drilling work is applicable for this job (Day Work). *Excluding any dismantling work. Panel Size : 500mm(W) x 500mm(H) Remarks : Design & Ready FA for production are all to be provided by client. : Future replacement of A3 size shuttle schedule per pc @ S$70.00 per trip.",
+          "item_type": "SERVICE",
+          "uom": "pc",
+          "quantity": "1",
+          "unit_price": "250.00",
+          "total": "250.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

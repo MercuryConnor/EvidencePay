@@ -1,0 +1,202 @@
+{
+  "file": "INV-02.pdf",
+  "payables": [
+    {
+      "invoice_number": "9972-907",
+      "invoice_date": "2026-03-18",
+      "due_date": "2026-04-01",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Northwind Technology OÜ",
+        "supplier_id": "",
+        "address": "Market Road 15\nHarjumaa\n10114 Tallinn\nEstonia",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_14",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "608.23",
+      "subtotal": "538.80",
+      "total_tax_amount": "111.72",
+      "discount_amount": "48.09",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Käibemaks",
+          "tax_rate": "24.0",
+          "tax_amount": "117.72",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "LED Bar FOS Luminus BAR",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "9.0",
+          "unit_price": "6.00",
+          "total": "54.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Meremiin ADJ Starburst",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "1.0",
+          "unit_price": "10.00",
+          "total": "10.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Pioneer CDJ-3000",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "2.0",
+          "unit_price": "45.00",
+          "total": "90.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Pioneer DJM-900 NXS2 mixer",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "1.0",
+          "unit_price": "45.00",
+          "total": "45.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "DJ laud 2m x 0,5m h=1m",
+          "item_type": "SERVICE",
+          "uom": "päev",
+          "quantity": "1.0",
+          "unit_price": "18.00",
+          "total": "18.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Kaasas must seelik",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.0",
+          "unit_price": "0.00",
+          "total": "0.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Aktiivkõlar Veritas 8000 komplekt",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "1.0",
+          "unit_price": "103.60",
+          "total": "103.60",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "XLR kaabel 10m",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "2.0",
+          "unit_price": "0.00",
+          "total": "0.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "XLR kaabel 3m",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "2.0",
+          "unit_price": "0.00",
+          "total": "0.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Pikendusjuhe 5m",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "3.0",
+          "unit_price": "0.00",
+          "total": "0.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Linnasisesene transport",
+          "item_type": "FREIGHT",
+          "uom": "Fikseeritud",
+          "quantity": "1.0",
+          "unit_price": "50.00",
+          "total": "50.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Tehnik",
+          "item_type": "SERVICE",
+          "uom": "tundi",
+          "quantity": "2.0",
+          "unit_price": "84.00",
+          "total": "168.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

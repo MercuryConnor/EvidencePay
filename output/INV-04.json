@@ -1,0 +1,59 @@
+{
+  "file": "INV-04.pdf",
+  "payables": [
+    {
+      "invoice_number": "INV7097292303",
+      "invoice_date": "2025-04-30",
+      "due_date": "2025-05-31",
+      "invoice_type": "INVOICE",
+      "currency": "ZAR",
+      "supplier": {
+        "name": "Northwind Services ZA (Pty) Meridian Print Ltd",
+        "supplier_id": "",
+        "address": "Rua do Ouro 5\nUnit 7, Block B\nGartenweg 60\nMaitland\nWESTERN CAPE CAPE TOWN 7405\nSOUTH AFRICA",
+        "vat_id": "9446639440"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "19730.55",
+      "subtotal": "17157.00",
+      "total_tax_amount": "2573.55",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Standard Criminal Verification",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "133.00",
+          "unit_price": "129.00",
+          "total": "17157.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT",
+              "tax_rate": "15",
+              "tax_amount": "2573.55",
+              "tax_type_code": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

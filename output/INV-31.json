@@ -1,0 +1,51 @@
+{
+  "file": "INV-31.pdf",
+  "payables": [
+    {
+      "invoice_number": "39015",
+      "invoice_date": "2018-06-01",
+      "due_date": "2018-06-01",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "100 Airport KPG III, LLC.",
+        "supplier_id": "",
+        "address": "125 E Elm Street, Suite 400, Conshohocken, PA 19428",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Monthly_in_advance",
+      "po_number": "16299",
+      "po_id": "",
+      "gross_total": "17657.53",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Electric 04/27/18-05/16/18",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "100",
+          "unit_price": "176.5753",
+          "total": "17657.53",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

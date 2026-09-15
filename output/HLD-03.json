@@ -1,0 +1,59 @@
+{
+  "file": "HLD-03.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2025-12-02",
+      "due_date": "2026-01-01",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Vinora",
+        "supplier_id": "",
+        "address": "Gartenweg 5",
+        "vat_id": "PT241 238 054"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "67.25",
+      "subtotal": "123.36",
+      "total_tax_amount": "7.74",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "TRINCA ALE T22 6X1500 CXE NTT EAN:5601012004984",
+          "item_type": "GOODS",
+          "uom": "CX",
+          "quantity": "1",
+          "unit_price": "123.36",
+          "total": "59.51",
+          "discount": "63.85",
+          "discount_percentage": "51.76",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IEC",
+              "tax_rate": "13",
+              "tax_amount": "",
+              "tax_type_code": "PT_130_IVA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

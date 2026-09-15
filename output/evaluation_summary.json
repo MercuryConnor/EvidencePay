@@ -1,0 +1,966 @@
+{
+  "dataset": {
+    "documents_discovered": 42,
+    "documents_processed": 42,
+    "outputs_generated": 42,
+    "errors": 0
+  },
+  "classification": {
+    "payable_candidates": 37,
+    "accepted_payables": 35,
+    "genuine_non_payables": 5,
+    "payable_reconstruction_failures": 2,
+    "empty_outputs": 0,
+    "payable_documents": 35,
+    "declined_documents": 7
+  },
+  "reconciliation": {
+    "accepted_payables": 35,
+    "erp_exact_matches_accepted": 35,
+    "erp_mismatches_accepted": 0,
+    "accepted_match_rate": 100.0,
+    "accepted_match_rate_str": "35/35 (100.0%)",
+    "overall_payable_candidates": 37,
+    "overall_exact_matches": 35,
+    "overall_reconstruction_failures": 2,
+    "overall_reconciliation_rate": 94.6,
+    "overall_reconciliation_rate_str": "35/37 (94.6%)"
+  },
+  "accounting": {
+    "payables_emitted": 35,
+    "erp_matches": 35,
+    "erp_mismatches": 0,
+    "erp_match_rate": 100.0
+  },
+  "diagnostics_summary": {
+    "TAX_DOUBLE_COUNTING": 0,
+    "DISCOUNT_DOUBLE_COUNTING": 0,
+    "CHARGE_PLACEMENT": 0,
+    "ROUNDING": 0,
+    "UNIT_PRICE": 0,
+    "CURRENT_VS_HISTORICAL": 0,
+    "COMPOUND_TAX": 1,
+    "BUNDLE_HIERARCHY": 0,
+    "OPERATIONAL_MEASUREMENT_VS_BILLABLE_AMOUNT": 0,
+    "NON_LINEAR_BILLING_FORMULA": 1,
+    "OTHER": 0
+  },
+  "financials_accepted": {
+    "CHF": {
+      "invoices": 12.1,
+      "credit_memos": 0.0,
+      "net_due": 12.1,
+      "count": 1
+    },
+    "DKK": {
+      "invoices": 4478.2,
+      "credit_memos": 0.0,
+      "net_due": 4478.2,
+      "count": 1
+    },
+    "EUR": {
+      "invoices": 192697.83,
+      "credit_memos": 400.0,
+      "net_due": 192297.83,
+      "count": 13
+    },
+    "GBP": {
+      "invoices": 58507.44,
+      "credit_memos": 5076.17,
+      "net_due": 53431.27,
+      "count": 3
+    },
+    "GHS": {
+      "invoices": 8045.4,
+      "credit_memos": 0.0,
+      "net_due": 8045.4,
+      "count": 1
+    },
+    "KES": {
+      "invoices": 70654.3,
+      "credit_memos": 0.0,
+      "net_due": 70654.3,
+      "count": 1
+    },
+    "R": {
+      "invoices": 148941.47,
+      "credit_memos": 0.0,
+      "net_due": 148941.47,
+      "count": 1
+    },
+    "SGD": {
+      "invoices": 771.66,
+      "credit_memos": 0.0,
+      "net_due": 771.66,
+      "count": 1
+    },
+    "THB": {
+      "invoices": 8397.36,
+      "credit_memos": 0.0,
+      "net_due": 8397.36,
+      "count": 1
+    },
+    "UNKNOWN": {
+      "invoices": 594.3,
+      "credit_memos": 0.0,
+      "net_due": 594.3,
+      "count": 1
+    },
+    "USD": {
+      "invoices": 111850.09,
+      "credit_memos": 0.0,
+      "net_due": 111850.09,
+      "count": 7
+    },
+    "ZAR": {
+      "invoices": 49695.08,
+      "credit_memos": 0.0,
+      "net_due": 49695.08,
+      "count": 4
+    }
+  },
+  "financials_failures": {
+    "EUR": {
+      "invoices": 1012.14,
+      "credit_memos": 0.0,
+      "net_due": 1012.14,
+      "count": 1
+    },
+    "USD": {
+      "invoices": 2487.73,
+      "credit_memos": 0.0,
+      "net_due": 2487.73,
+      "count": 1
+    }
+  },
+  "financials_by_currency": {
+    "CHF": {
+      "invoices": 12.1,
+      "credit_memos": 0.0,
+      "net_due": 12.1,
+      "count": 1
+    },
+    "DKK": {
+      "invoices": 4478.2,
+      "credit_memos": 0.0,
+      "net_due": 4478.2,
+      "count": 1
+    },
+    "EUR": {
+      "invoices": 192697.83,
+      "credit_memos": 400.0,
+      "net_due": 192297.83,
+      "count": 13
+    },
+    "GBP": {
+      "invoices": 58507.44,
+      "credit_memos": 5076.17,
+      "net_due": 53431.27,
+      "count": 3
+    },
+    "GHS": {
+      "invoices": 8045.4,
+      "credit_memos": 0.0,
+      "net_due": 8045.4,
+      "count": 1
+    },
+    "KES": {
+      "invoices": 70654.3,
+      "credit_memos": 0.0,
+      "net_due": 70654.3,
+      "count": 1
+    },
+    "R": {
+      "invoices": 148941.47,
+      "credit_memos": 0.0,
+      "net_due": 148941.47,
+      "count": 1
+    },
+    "SGD": {
+      "invoices": 771.66,
+      "credit_memos": 0.0,
+      "net_due": 771.66,
+      "count": 1
+    },
+    "THB": {
+      "invoices": 8397.36,
+      "credit_memos": 0.0,
+      "net_due": 8397.36,
+      "count": 1
+    },
+    "UNKNOWN": {
+      "invoices": 594.3,
+      "credit_memos": 0.0,
+      "net_due": 594.3,
+      "count": 1
+    },
+    "USD": {
+      "invoices": 111850.09,
+      "credit_memos": 0.0,
+      "net_due": 111850.09,
+      "count": 7
+    },
+    "ZAR": {
+      "invoices": 49695.08,
+      "credit_memos": 0.0,
+      "net_due": 49695.08,
+      "count": 4
+    }
+  },
+  "payable_reconstruction_failures": [
+    {
+      "file": "HLD-05.pdf",
+      "invoice_number": "856/AT",
+      "doc_type": "invoice",
+      "currency": "EUR",
+      "stated_gross": 1012.14,
+      "erp_gross": 1324.53,
+      "delta": 312.39,
+      "diagnostic_category": "COMPOUND_TAX",
+      "diagnostic_explanation": "Excise duty (IEC) legally compounded into VAT taxable base prior to IVA calculation; linear ERP schema cannot represent compound tax base without synthesis (delta +312.39)."
+    },
+    {
+      "file": "INV-37.pdf",
+      "invoice_number": "5568",
+      "doc_type": "invoice",
+      "currency": "USD",
+      "stated_gross": 2487.73,
+      "erp_gross": 2507.75,
+      "delta": 20.02,
+      "diagnostic_category": "NON_LINEAR_BILLING_FORMULA",
+      "diagnostic_explanation": "Billing amount determined by non-linear formula (e.g. connected tons * annual fee / 12 months * factor); linear ERP schema cannot represent without fabricating artificial unit price (delta +20.02)."
+    }
+  ],
+  "genuine_non_payables": [
+    {
+      "file": "DU-05s.pdf",
+      "type": "delivery_note",
+      "reason": "This document consists of delivery notes and shipping documents with no payment request or billing amounts."
+    },
+    {
+      "file": "DU-08.pdf",
+      "type": "reminder",
+      "reason": "The document is a payment reminder (Mahnung), not an invoice or credit memo."
+    },
+    {
+      "file": "DU-09.pdf",
+      "type": "form",
+      "reason": "The document is an internal donation and sponsorship approval form, not an invoice or payable."
+    },
+    {
+      "file": "INV-23.pdf",
+      "type": "estimate",
+      "reason": "The document is an estimate, not a payable invoice."
+    },
+    {
+      "file": "INV-26.pdf",
+      "type": "sales_order",
+      "reason": "The document is a sales order / quotation confirmation (\"SALES\"), not a payable invoice addressed to the company."
+    }
+  ],
+  "exceptions": {
+    "infrastructure_failures": 0,
+    "erp_mismatches": [],
+    "non_payable_documents": [
+      {
+        "file": "DU-05s.pdf",
+        "type": "delivery_note",
+        "reason": "This document consists of delivery notes and shipping documents with no payment request or billing amounts."
+      },
+      {
+        "file": "DU-08.pdf",
+        "type": "reminder",
+        "reason": "The document is a payment reminder (Mahnung), not an invoice or credit memo."
+      },
+      {
+        "file": "DU-09.pdf",
+        "type": "form",
+        "reason": "The document is an internal donation and sponsorship approval form, not an invoice or payable."
+      },
+      {
+        "file": "INV-23.pdf",
+        "type": "estimate",
+        "reason": "The document is an estimate, not a payable invoice."
+      },
+      {
+        "file": "INV-26.pdf",
+        "type": "sales_order",
+        "reason": "The document is a sales order / quotation confirmation (\"SALES\"), not a payable invoice addressed to the company."
+      }
+    ]
+  },
+  "documents": [
+    {
+      "file": "DU-02.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "554701215",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "0.00",
+          "erp_gross": 0.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "DU-03.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "0107892268",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "1040.06",
+          "erp_gross": 1040.06,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "DU-05.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "7363916",
+          "invoice_type": "INVOICE",
+          "currency": "SGD",
+          "stated_gross": "771.66",
+          "erp_gross": 771.66,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "DU-05s.pdf",
+      "status": "GENUINE_NON_PAYABLE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "delivery_note",
+          "reason": "This document consists of delivery notes and shipping documents with no payment request or billing amounts."
+        }
+      ]
+    },
+    {
+      "file": "DU-06.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "FN 050906935",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "153.58",
+          "erp_gross": 153.58,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "DU-08.pdf",
+      "status": "GENUINE_NON_PAYABLE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "reminder",
+          "reason": "The document is a payment reminder (Mahnung), not an invoice or credit memo."
+        }
+      ]
+    },
+    {
+      "file": "DU-09.pdf",
+      "status": "GENUINE_NON_PAYABLE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "form",
+          "reason": "The document is an internal donation and sponsorship approval form, not an invoice or payable."
+        }
+      ]
+    },
+    {
+      "file": "DU-10.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "5900366703",
+          "invoice_type": "CREDIT_MEMO",
+          "currency": "GBP",
+          "stated_gross": "5076.17",
+          "erp_gross": 5076.17,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "DU-11.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "6265-K",
+          "invoice_type": "CREDIT_MEMO",
+          "currency": "EUR",
+          "stated_gross": "400.00",
+          "erp_gross": 400.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "HLD-01.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "SI6675/02/467",
+          "invoice_type": "INVOICE",
+          "currency": "THB",
+          "stated_gross": "8397.36",
+          "erp_gross": 8397.36,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "HLD-03.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "67.25",
+          "erp_gross": 67.25,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "HLD-05.pdf",
+      "status": "PAYABLE_RECONCILIATION_FAILURE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "invoice",
+          "reason": "PAYABLE_RECONCILIATION_FAILURE: inv=856/AT, curr=EUR, stated=1012.14, erp=1324.53, delta=+312.39, category=COMPOUND_TAX: Excise duty (IEC) legally compounded into VAT taxable base prior to IVA calculation; linear ERP schema cannot represent compound tax base without synthesis (delta +312.39)."
+        }
+      ]
+    },
+    {
+      "file": "HLD-08.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "162547",
+          "invoice_type": "INVOICE",
+          "currency": "R",
+          "stated_gross": "148941.47",
+          "erp_gross": 148941.47,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "HLD-10.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "254.52",
+          "erp_gross": 254.52,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-01.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "852566",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "438.00",
+          "erp_gross": 438.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-02.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "9972-907",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "608.23",
+          "erp_gross": 608.23,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-03.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "INV-75162461",
+          "invoice_type": "INVOICE",
+          "currency": "ZAR",
+          "stated_gross": "8550.00",
+          "erp_gross": 8550.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-04.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "INV7097292303",
+          "invoice_type": "INVOICE",
+          "currency": "ZAR",
+          "stated_gross": "19730.55",
+          "erp_gross": 19730.55,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-06.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "75884754",
+          "invoice_type": "INVOICE",
+          "currency": "ZAR",
+          "stated_gross": "1683.98",
+          "erp_gross": 1683.98,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-07.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "INV7097292303",
+          "invoice_type": "INVOICE",
+          "currency": "ZAR",
+          "stated_gross": "19730.55",
+          "erp_gross": 19730.55,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-09.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "11768395",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "37767.32",
+          "erp_gross": 37767.32,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-10.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "18533",
+          "invoice_type": "INVOICE",
+          "currency": "UNKNOWN",
+          "stated_gross": "594.30",
+          "erp_gross": 594.3,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-11.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "18109293",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "83.21",
+          "erp_gross": 83.21,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-13.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "1410",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "152587.46",
+          "erp_gross": 152587.46,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-14.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "INV-1587",
+          "invoice_type": "INVOICE",
+          "currency": "GBP",
+          "stated_gross": "29253.72",
+          "erp_gross": 29253.72,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-15.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "INV-8935",
+          "invoice_type": "INVOICE",
+          "currency": "GBP",
+          "stated_gross": "29253.72",
+          "erp_gross": 29253.72,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-16.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "TLLIR72836045",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "26.47",
+          "erp_gross": 26.47,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-19.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "",
+          "invoice_type": "INVOICE",
+          "currency": "GHS",
+          "stated_gross": "8045.40",
+          "erp_gross": 8045.4,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-20.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "20423591",
+          "invoice_type": "INVOICE",
+          "currency": "CHF",
+          "stated_gross": "12.10",
+          "erp_gross": 12.1,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-21.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "9884313366",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "535.79",
+          "erp_gross": 535.79,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-23.pdf",
+      "status": "GENUINE_NON_PAYABLE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "estimate",
+          "reason": "The document is an estimate, not a payable invoice."
+        }
+      ]
+    },
+    {
+      "file": "INV-25.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "FAC A98/712",
+          "invoice_type": "INVOICE",
+          "currency": "EUR",
+          "stated_gross": "176.00",
+          "erp_gross": 176.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-26.pdf",
+      "status": "GENUINE_NON_PAYABLE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "sales_order",
+          "reason": "The document is a sales order / quotation confirmation (\"SALES\"), not a payable invoice addressed to the company."
+        }
+      ]
+    },
+    {
+      "file": "INV-27.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "32917ALS55",
+          "invoice_type": "INVOICE",
+          "currency": "KES",
+          "stated_gross": "70654.30",
+          "erp_gross": 70654.3,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-28.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "3025139",
+          "invoice_type": "INVOICE",
+          "currency": "DKK",
+          "stated_gross": "4478.20",
+          "erp_gross": 4478.2,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-31.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "39015",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "17657.53",
+          "erp_gross": 17657.53,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-32.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "72",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "750.00",
+          "erp_gross": 750.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-33.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "ADIPL/INV/070/17",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "250.00",
+          "erp_gross": 250.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-34.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "I220-127612",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "572.00",
+          "erp_gross": 572.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-35.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "0248727220",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "0.00",
+          "erp_gross": 0.0,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-36.pdf",
+      "status": "ACCEPTED_PAYABLE",
+      "payables": [
+        {
+          "payable_index": 0,
+          "invoice_number": "44273107",
+          "invoice_type": "INVOICE",
+          "currency": "USD",
+          "stated_gross": "91580.50",
+          "erp_gross": 91580.5,
+          "delta": 0.0,
+          "matches": true
+        }
+      ],
+      "declined": []
+    },
+    {
+      "file": "INV-37.pdf",
+      "status": "PAYABLE_RECONCILIATION_FAILURE",
+      "payables": [],
+      "declined": [
+        {
+          "doc_type": "invoice",
+          "reason": "PAYABLE_RECONCILIATION_FAILURE: inv=5568, curr=$, stated=2487.73, erp=2507.75, delta=+20.02, category=NON_LINEAR_BILLING_FORMULA: Billing amount determined by non-linear formula (e.g. connected tons * annual fee / 12 months * factor); linear ERP schema cannot represent without fabricating artificial unit price (delta +20.02)."
+        }
+      ]
+    }
+  ]
+}

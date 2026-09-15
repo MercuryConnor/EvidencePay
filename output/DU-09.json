@@ -1,0 +1,10 @@
+{
+  "file": "DU-09.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "form",
+      "reason": "The document is an internal donation and sponsorship approval form, not an invoice or payable."
+    }
+  ]
+}

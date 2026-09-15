@@ -1,0 +1,10 @@
+{
+  "file": "DU-08.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "reminder",
+      "reason": "The document is a payment reminder (Mahnung), not an invoice or credit memo."
+    }
+  ]
+}

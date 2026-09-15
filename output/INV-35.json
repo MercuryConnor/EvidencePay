@@ -1,0 +1,90 @@
+{
+  "file": "INV-35.pdf",
+  "payables": [
+    {
+      "invoice_number": "0248727220",
+      "invoice_date": "6/27/2018",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "1000020040",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "27.5",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Basic Fee",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Retrieval Fee",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Per Page Copy (Paper) 1",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "13",
+          "unit_price": "0.0",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Electronic Data Archive Fee",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

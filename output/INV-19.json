@@ -1,0 +1,93 @@
+{
+  "file": "INV-19.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "GH₵",
+      "supplier": {
+        "name": "Redwater Technologies",
+        "supplier_id": "",
+        "address": "Lindenstrasse 111",
+        "vat_id": "C9765403675"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE004",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "8045.40",
+      "subtotal": "6600.00",
+      "total_tax_amount": "1445.40",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "",
+          "tax_name": "NHIL",
+          "tax_rate": "2.5",
+          "tax_amount": "165.00",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "",
+          "tax_name": "GETFund Levy",
+          "tax_rate": "2.5",
+          "tax_amount": "165.00",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "",
+          "tax_name": "COVID-19 Levy",
+          "tax_rate": "1",
+          "tax_amount": "66.00",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "",
+          "tax_name": "VAT",
+          "tax_rate": "15",
+          "tax_amount": "1049.40",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Meal per head",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "60",
+          "unit_price": "90.00",
+          "total": "5400.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Transportation and Set up",
+          "item_type": "FREIGHT",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1200.00",
+          "total": "1200.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

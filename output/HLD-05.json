@@ -1,0 +1,10 @@
+{
+  "file": "HLD-05.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "invoice",
+      "reason": "PAYABLE_RECONCILIATION_FAILURE: inv=856/AT, curr=EUR, stated=1012.14, erp=1324.53, delta=+312.39, category=COMPOUND_TAX: Excise duty (IEC) legally compounded into VAT taxable base prior to IVA calculation; linear ERP schema cannot represent compound tax base without synthesis (delta +312.39)."
+    }
+  ]
+}

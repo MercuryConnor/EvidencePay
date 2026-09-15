@@ -1,0 +1,59 @@
+{
+  "file": "DU-11.pdf",
+  "payables": [
+    {
+      "invoice_number": "6265-K",
+      "invoice_date": "2025-03-16",
+      "due_date": "2025-03-16",
+      "invoice_type": "CREDIT_MEMO",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Tavolo OÜ",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GB001",
+        "location_code": "LOC_GB_001"
+      },
+      "payment_term_id": "Monthly_in_advance",
+      "po_number": "795977",
+      "po_id": "",
+      "gross_total": "400.00",
+      "subtotal": "327.87",
+      "total_tax_amount": "72.13",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Toitlustamine Tavolo",
+          "item_type": "SERVICE",
+          "uom": "tk",
+          "quantity": "1",
+          "unit_price": "327.868852",
+          "total": "327.87",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM",
+              "tax_rate": "22",
+              "tax_amount": "",
+              "tax_type_code": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

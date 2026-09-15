@@ -1,0 +1,176 @@
+{
+  "file": "DU-03.pdf",
+  "payables": [
+    {
+      "invoice_number": "0107892268",
+      "invoice_date": "",
+      "due_date": "2026-01-16",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "Blueharbor Logistics & Services Singapore Pte. Ltd.",
+        "supplier_id": "",
+        "address": "Brightside Trading Pte. Ltd, Changi Airfreight Centre, Gartenweg 7, Cargo Agents Building E, 819834 Singapore",
+        "vat_id": "M2-0029161-1"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "1040.06",
+      "subtotal": "1040.06",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GST",
+          "tax_name": "GST on sales",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "International Freight",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "1.28",
+          "total": "725.76",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Origin Terminal Handling",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.10",
+          "total": "56.70",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Documentation Fee",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "45.00",
+          "total": "45.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Delivery",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.04",
+          "total": "22.68",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Pick-up",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.18",
+          "total": "102.06",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Customs Export",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "7.50",
+          "total": "7.50",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Origin Documentation",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Customs Import",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Carrier Manifest Filing",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "5.00",
+          "total": "5.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Terminal Handling",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.08",
+          "total": "45.36",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}
